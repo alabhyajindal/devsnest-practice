@@ -1,0 +1,132 @@
+@font-face {
+  font-family: sans;
+  src: url(./Roboto-Regular.ttf);
+}
+
+@keyframes ftb{
+  0% {
+    background-color: #26C485;
+  }
+  50% {
+    background-color: #F6AE2D;
+  }
+  100% {
+    background-color: #26C485;
+  }
+}
+
+@keyframes hgh {
+  0% {
+    background-color: #00bbf9;
+  }
+  50% {
+    background-color: #ffc6ff;
+  }
+  100% {
+    background-color: #00bbf9;
+  }
+}
+
+@keyframes yty {
+  0% {
+    background-color: #C5D86D;
+  }
+  50% {
+    background-color: #E71D36;
+  }
+  100% {
+    background-color: #C5D86D;
+  }
+}
+
+@keyframes sds {
+  0% {
+    background-color: #473BF0;
+  }
+  50% {
+    background-color: #61FF7E;
+  }
+  100% {
+    background-color: #473BF0;
+  }
+}
+
+@keyframes qwq {
+  0% {
+    background-color: #3c096c;
+  }
+  50% {
+    background-color: #fee440;
+  }
+  100% {
+    background-color: #3c096c;
+  }
+}
+
+@keyframes fgf {
+  0% {
+    background-color: #e71d36;
+  }
+  50% {
+    background-color: #61FF7E;
+  }
+  100% {
+    background-color: #e71d36;
+  }
+}
+
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: sans;
+  font-size: 1.5rem;
+
+}
+
+.cont {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  align-items: center;  
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 2rem 2rem;;
+
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+  justify-content: center;
+  animation-duration: 1s;
+
+}
+
+.box1 {
+  /* background-color: #9FCC2E; */
+  /* animation-name: ftb; */
+  animation-iteration-count: infinite;
+
+  /* background-image: url(./3.jpg);
+  background-size: 300px auto; */
+
+  /* filter: grayscale(0%); */
+
+  border-radius: 2px;
+}
+
+.box2 {
+  background-color: #0000;
+}
+
+.box3 {
+  /* background-color: #9FCC2E; */
+
+  /* animation-name: btf; */
+  animation-iteration-count: infinite;
+
+
+}
